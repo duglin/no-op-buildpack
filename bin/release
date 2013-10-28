@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-echo "In BAR RELEASE" $1
+cat <<EOF
+default_process_type:
+  web: echo hi
+EOF
 
-exit 1
-
+exit 0
