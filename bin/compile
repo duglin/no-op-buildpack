@@ -1,4 +1,6 @@
 #!/bin/sh
 # bin/compile <build-dir> <cache-dir>
-echo '----> In BAR COMPILE'
-echo '----> Done BAR COMPILE'
+echo '----> Starting at: `date`
+echo '----> In NO-OP COMPILE'
+echo '----> Done NO-OP COMPILE'
+echo '----> Ending at: `date`
