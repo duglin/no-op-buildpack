@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# bin/release <build-dir>
+
+echo "In BAR RELEASE" $1
+
+exit 1
+

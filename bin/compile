@@ -1,0 +1,5 @@
+#!/bin/sh
+# bin/compile <build-dir> <cache-dir>
+echo '----> In BAR COMPILE'
+echo '----> Done BAR COMPILE'
+
