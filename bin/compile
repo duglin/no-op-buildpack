@@ -1,6 +1,13 @@
 #!/bin/sh
 # bin/compile <build-dir> <cache-dir>
-echo '----> Starting at: `date`
-echo '----> In NO-OP COMPILE'
-echo '----> Done NO-OP COMPILE'
-echo '----> Ending at: `date`
+# rc: 0 on success
+echo "----> Starting at: `date`"
+echo "----> In NO-OP COMPILE"
+echo "----> Buildpack dir: $(dirname $(dirname $(readlink -e $0)))"
+echo "----> "
+echo "----> Contents of build dir ($1):"
+ls -lR $1
+echo "----> Contents of cache dir ($1):"
+ls -lR $2
+echo "----> Done NO-OP COMPILE"
+echo "----> Ending at: `date`"

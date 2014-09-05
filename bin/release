@@ -2,8 +2,6 @@
 # bin/release <build-dir>
 
 cat <<EOF
-default_process_type:
-  web: echo hi
+default_process_types:
+  web: pwd && ls -lR && sleep 30
 EOF
-
-exit 0
